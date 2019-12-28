@@ -3,7 +3,7 @@
 docker run \
   -it \
   --rm \
-  -p 8888:8888 \
+  -p 5555:8888 \
   --user root \
   -e NB_UID=$(id -u) \
   -e NB_GID=$(id -g) \
